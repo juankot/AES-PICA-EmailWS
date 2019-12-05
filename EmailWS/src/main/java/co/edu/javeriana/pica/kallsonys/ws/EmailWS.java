@@ -21,7 +21,7 @@ public class EmailWS {
     @Autowired
     EmailFacade emailFacade;
 
-    @PostMapping("/Email")
+    @PostMapping("/send")
     @ResponseStatus(HttpStatus.CREATED)
     public ResponseEntity sendEmail(@Valid @RequestBody Email email) throws Exception {
         try {

@@ -1,13 +1,11 @@
-package co.edu.javeriana.pica.kallsonys.ws;
+package co.edu.javeriana.pica.kallsonys;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"co.edu.javeriana.pica.kallsonys"})
 public class Application extends SpringBootServletInitializer {
 
     @Override
